@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(75, 75, 75);
+    text-shadow: 1px 2px 0px rgb(0, 0, 0);
+    
+}
+
+.container {
+    background-color:rgb(35, 36, 36); 
+    color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.title {
+    margin: 0 auto;
+    
+}
+
+.inputalt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputpeso {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input[type=number]
+{
+    height: 20px;
+    background-color: rgb(223, 228, 231);
+    border-radius: 7px;
+    margin-left: 10px;
+    
+}
+input[type=button] {
+    padding:5px 15px;
+    margin-top: 30px; 
+    background:rgb(94, 94, 94); 
+    cursor:pointer;
+    margin-left: 4px;
+    border-radius: 10px; 
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+input[type=button]:hover {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+#resultado 
+{
+    background-color: rgb(78, 78, 78);
+    border-radius: 7px;
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+}
